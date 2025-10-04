@@ -1,4 +1,18 @@
-## Files Description
-1. TM110.ipynb: Exploratory code of the case with 3 models: Decision Tree, Random Forest, and Gradient Boosting
-2. TM110_Trial.ipynb: Improved and reformatted version of the base code with the same 3 models
-3. TM110_HGB.ipynb: Potentially final version of the base code with 1 model: HGB (Histrogram-based Gradient Boosting)
+# Fetal Cardiotocography Classification using Histogram-based Gradient Boosting
+**TM-110:** Steven Darren Wijaya, Bryan Winsley Louwren, Novadella Zen
+## Project Description
+A python-based machine learning project designed to provide reliable and interpretable classification of fetal health states from cardiotocography (CTG) data for clinical use.\
+Applies Histogram-based Gradient Boosting (HGB) to classify fetal cardiotocography (CTG) data into three categories:
+1. Normal – Healthy fetal heart rate patterns
+2. Suspect – Borderline or unclear patterns
+3. Pathologic – Abnormal patterns indicating potential fetal distress
+
+HGB was chosen because it efficiently handles large tabular datasets, captures nonlinear feature interactions, provides feature importance insights for clinical interpretability, and supports class weighting to reduce false negatives.
+
+  ### The solution follows the workflow:
+  * Data standardization and light cleaning
+  * Handling class imbalance with class weighting
+  * Measuring performance with balanced accuracy and macro-F1
+
+## Acknowledgements
+All models were trained on the open-source CTG dataset provided by the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/193/cardiotocography)
