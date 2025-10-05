@@ -20,7 +20,7 @@ After comparing 3 models, HGB was chosen because it gave the most accurate resul
 
 ## Project Folders/Files:
 Data Exploration: past experiments with different models\
-Demo results: .pkl files and graphics from demo video\
+Demo results: .pkl files (trained model files) and graphics from demo video\
 sample_input: csv files for training, description of features (json)\
 TM110_Test: to be run after training is complete\
 TM110_Training: initial code for model training
