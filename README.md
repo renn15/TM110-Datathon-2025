@@ -22,7 +22,7 @@ After comparing 3 models, HGB was chosen because it gave the most accurate resul
 1. Download TM110_Training.py and TM110_Test.py and put into one folder
 2. Open a terminal and move to the folder.
 3. Run TM110_Training.py. Two pkl files and two csv files should be created in the folder.
-4. Run the following command to test the model: ```TM110_Test.py --input Input --model Model --output Output```.
+4. Run the following command to test the model: ```TM110_Test.py --input input [--model model] [--output output]```
     * Input: The CTG data to be inputted. Required. Accepted file type: .xlsx, .xls, .csv
     * Model: The machine learning model to be used. Optional. Options: HGB_NSP.pkl or HGB_CLASS.pkl
     * Output: Where to save the predictions result. Optional. Default: predictions.csv
