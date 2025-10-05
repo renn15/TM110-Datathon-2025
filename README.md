@@ -18,5 +18,14 @@ After comparing 3 models, HGB was chosen because it gave the most accurate resul
   * Seperating data into training and test subsets
   * Measuring performance with confusion matrix, balanced accuracy, and macro-F1
 
+## Instruction
+1. Download TM110_Training.py and TM110_Test.py and put into one folder
+2. Open a terminal and move to the folder.
+3. Run TM110_Training.py. Two pkl files and two csv files should be created in the folder.
+4. Run the following command to test the model: ```TM110_Test.py --input Input --model Model --output Output```.
+  a. Input: The CTG data to be inputted. Required. Accepted file type: .xlsx, .xls, .csv
+  b. Model: The machine learning model to be used. Optional. Options: HGB_NSP.pkl or HGB_CLASS.pkl
+  c. Output: Where to save the predictions result. Optional. Default: predictions.csv
+
 ## Resources
 All models were trained on the open-source CTG dataset provided by the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/193/cardiotocography)
