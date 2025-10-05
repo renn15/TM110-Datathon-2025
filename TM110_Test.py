@@ -1,16 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-"""
-TM110 – CTG NSP Inference (bare .pkl loader)
-
-Assumes the saved file is a plain scikit-learn estimator (not a dict artifact).
-The script:
-- Reads .xlsx/.xls/.csv
-- Validates & orders the 24 required features
-- Predicts NSP (1/2/3) and prints/saves results
-"""
-
 import argparse, os, sys
 import pandas as pd
 import numpy as np
@@ -132,3 +119,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
