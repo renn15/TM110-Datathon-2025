@@ -1,0 +1,8 @@
+{
+  "required_features": [
+    "b","e","AC","FM","UC","DL","DS","DP","DR","LB",
+    "ASTV","MSTV","ALTV","MLTV","Width","Min","Max",
+    "Nmax","Nzeros","Mode","Mean","Median","Variance","Tendency"
+  ],
+  "classes": {"1":"Normal", "2":"Suspect", "3":"Pathologic"}
+}
